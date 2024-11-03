@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+}
+    body{
+        margin:0;
+        font-family:"Roboto",sans-serif;
+        font-weight:400;
+        font-style:normal;
+    }
+    h2{ font-size:43px;line-height:54px;color:rgb(138,100,47);}
+    h4{color:rgba(0,0,0,4);
+    font-size:22px;
+    line-height:30px;
+    text-align:center;
+    }
+    header-container{
+        max-width:960px;
+        margin:0auto;padding:59px;
+    }
+    .logo-block{display:inline;text-align: left;}
+    .social-block{display:inline;text-align:right;margin:800px;}
+    .text-container{
+        max-width: 940px;
+        margin:auto;
+        text-align: center;
+    }
+    .text-container-form{padding:81px;max-width: 940px;margin: auto;text-align: center;}
+    .text-container-form{padding:92px;margin: auto;text-align: center;}
+    .text-container-but{padding: 58px;max-width: 940px;margin: auto;text-align: center;}
+    .title-rlrment{text-align: center;font-size: 37px;color: rgba(0,0,0,56);}
+    .text-content{text-align: center;font-size: 23px;color: rgba(0, 0, 0, 4);}
+    font{text-align: center;}
+    .button{text-align: center;width: 61px;height: 22px;box-sizing: border-box;border: 1px;border-radius: 3px;background: rgb(255, 255, 255);}
+    .forma{background-color: rgb(250, 201, 95);text-align: center;padding: 92px;}
+    .email{border-radius: 2px;border:none;background: rgb(168,134,61);width: 240px;height: 54px;font-size: 30px;color:rgb(255,255,255);}
+    input:placeholder{font-size: 30px;font-weight: 400;text-align: center;width: 330px;height:54px;}
+    .space{background: rgb(243,243,243);text-align: center;min-height: 100px;}
+    .share{background: rgb(250,200,90);text-align: center;min-height: 100px;}
+    .share{background: rgb(250,201,96);text-align: center;}
+    .img-content{margin:52px;box-sizing: border-box;}
+    .img-content{text-align: center;margin:32px;}
+    .end{text-align: center;margin:auto;line-height: 24px;letter-spacing: 10px;}

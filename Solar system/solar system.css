@@ -1,0 +1,144 @@
+body{
+    background-color:rgb(145, 147, 153)
+}
+.system-planets{
+    text-align:center;
+    margin: auto;
+}
+.system-planets img{
+    width:440px;
+    height: 360px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+    margin: auto;
+}
+.mercury-planet{
+    font-size: 38px;
+    text-align: center;
+    margin: auto;
+}
+.mercury-planet img{
+    width: 440px;
+    height: 360px;
+}
+.mercury-planet h3,
+.mercury-planet{
+    text-align: left;
+}
+.venus-planet{
+    font-size: 38px;
+    text-align: center;
+    margin: auto;
+}
+.venus-planet img{
+    width: 440px;
+    height: 360px;
+}
+.venus-planet h3{
+    text-align: right;
+}
+.venus-planet{
+    text-align: left;
+}
+.earth-planet{
+    font-size: 38px;
+    text-align: center;
+    margin: auto;
+}
+.earth-planet img{
+    width: 440px;
+    height: 360px;
+}
+.earth-planet h3,
+.earth-planet{
+    text-align: center;
+}
+mars-planet{
+    font-size: 38px;
+    text-align: center;
+    margin:auto;
+}
+.mars-planet img{
+    width: 440px;
+    height: 360px;
+}
+.mars-planet h3,
+.mars-planet{
+    text-align: left;
+}
+jupiter-planet{
+    font :size  38 px;
+    text-align :center
+    margin auto;
+}
+.jupiter-planet img{
+    width: 440px;
+    height: 360px;
+}
+.jupiter-planet h3
+.jupiter-planet{
+    text-align: center;
+}
+.saturn-planet{
+    font-size: 38px;
+    text-align: center;
+    margin: auto;
+}
+.saturn-planet img{
+    width: 440px;
+    height: 360px;
+}
+.saturn-planet h3{
+    text-align: center;
+}
+.saturn-planet p{
+    text-align: center;
+}
+.uranus-planet{
+    font-size: 38px;
+    text-align: left;
+    margin: auto;
+}
+.uranus-planet img{
+    width: 440px;
+    height: 360px;
+}
+.uranus-planet h3{
+    text-align: right;
+}
+.uranus-planet p{
+    text-align: left;
+}
+.neptune-planet{
+    font-size: 38px;
+    text-align: right;
+    margin: auto;
+}
+.neptune-planet img{
+    width: 440px;
+    height: 360px;
+}
+.neptune-planet h3
+.neptune-planet p{
+    text-align: left;
+}
+.pluto-planet{
+    font-size: 38px;
+    text-align: center;
+    margin: auto;
+}
+.pluto-planet img{
+    width: 440px;
+    height: 360px;
+}
+.pluto-planet h3
+.pluto-planet p{
+    text-align: center;
+}
