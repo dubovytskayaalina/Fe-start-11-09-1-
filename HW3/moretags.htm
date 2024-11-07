@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Домашнє завдання 
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="#top-page">
+                <strong><em> - прочитати і розглянути типи інпутів ( не забудьте  розглянути їх в ін ших браузерах) <sup>1</sup></em></strong>
+            </a></li>
+            <li><a href="#top-page1">
+                <strong><em> - реалізуйте сторінку використовуючи інпути не розглянуті на уроці №3</em></strong>
+            </a></li>
+            <li><a href="#top-page2"> <strong><em>- зробіть табличку з стовбцями назва книги, рік випуску, рейтинг та 3 рядками з інформацією про кники ( інформація довільна)</em> </a></li>
+             <li><a href="#top-page3"> <strong><em>- створіть табличку як на зображені</em> </a></li>
+        </ul>
+    </nav>
+    <ul>
+        <li><h2>Урок №3</h2></li>
+    </ul>
+    <ul>
+        <li><h3 id="top-page">- прочитати і розглнути типи інпутів ( не забудьте  розглянути їх в ін ших браузерах) <sup>1</sup>
+        </h3></li>
+    </ul>
+    <ol start="1">
+        <li> <a href="https://github.com/slastonm/fe-start-11-09/tree/main/03">Приклади розглянуті на уроці github.com</a></li>
+        <li> <a href="https://www.w3schools.com/html/html_form_input_types.asp">html_form_input_types.asp</a></li>
+        <li><a href="https://github.com/slastonm/fe-start-11-09/tree/main/03">type</a></li>
+        <li> <a href="https://github.com/slastonm/fe-start-11-09/tree/main/03">input</a></li>
+    </ol>
+    <h3>
+        Що почитати:
+    </h3>
+    <ol reversed>       
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation">Form_validation</a></li> 
+    </ol>
+    <ul>
+        <li><h3 id="top-page1">- реалізуйте сторінку використовуючи інпути не розглянуті на уроці
+        </h3></li>
+    </ul>
+    <h2>Інпути не розглянуті на уроці №3 </h2>
+    <fieldset>
+      <legend>Персональні дані</legend>
+      <ul>
+        <li>
+          <label for="name">Ім'я: *</label>
+          <input type="text" name="name" placeholder="Iван Iванов" id="name" required>
+        </li>
+        <li>
+          <label for="age">Вік: *</label>
+          <input type="number" name="age" placeholder="27" id="age" min="0" max="125">
+        </li>
+        <li>
+            <form>
+                <label for="birthdaytime">День народження (дата і час):</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            </form> 
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Контакти</legend>
+    <ul>
+      <li>
+        <label for="email">E-mail: *</label>
+        <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
+      </li>
+      <li>
+        <label for="number">Тел :  *</label>
+        <input type="tel" name="phone" placeholder="+38-000-00-000-00" id="number" maxlength="21" required>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+    <label for="message">Захоплення</label>
+    <textarea name="comment" placeholder="Розкажіть про все, що для вас е важливим" id="message"></textarea>
+  </div>
+  <fieldset>
+    <legend>Навчання</legend>
+    <ul>
+      <li>
+        <input type="checkbox" name="intensive-courses" id="courses" checked>
+        <label for="courses">Проходжу курси</label>
+      </li>
+      <li>
+        <input type="checkbox" name="books" id="books">
+        <label for="books">Читаю книжки</label>
+      </li>
+      <li>
+        <input type="checkbox" name="video" id="video">
+        <label for="video">Дивлюсь відео</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Уподобання</legend>
+    <ul>
+      <li>
+        <input type="radio" name="preference" id="front" value="frontend" checked>
+        <label for="front">Фронтенд-розробка</label>
+      </li>
+      <li>
+        <input type="radio" name="preference" id="back" value="backend">
+        <label for="back">Бекенд-розробка</label>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+    <button type="submit">Надіслати</button>
+    <p>* — Обов'язкові поля</p>
+  </div>
+  <ol type="A"></ol>
+      <li>
+          <h3>
+            Які книги потрібні для програмування? 
+        </h3>
+        <p>
+            Підготували для вас добірку літератури, яка познайомить вас із професією та надихнуть рости та професійно розвиватися на обраному шляху. Багато з перерахованих книг буде цікаво прочитати і професіоналам, які вже працюють. 
+        </p>
+    </li>
+    <li><h3>ТОП-15 книг для входа в IT</h3></li>
+    <li>
+        <ul>
+            <li>1.  «Шлях програміста: людина епохи IT» (2016) </li>
+            <li>2.  «Код: таємна мова інформатики» (2004) </li>
+            <li>3. «Джедайські техніки» (2021) </li>
+            <li>4. «Ідеальний програміст» (2016) </li>
+            <li>5. "Кажуть, в IT багато платять" (2021)</li>
+            <li>6.  «Алгоритми. Побудова та аналіз» </li>
+            <li>7.  «Думай як програміст. Творчий підхід до створення коду. C++ версія» </li>
+            <li>8. «Head First. Паттерни проектування» 2018 р </li>
+            <li>9. "Програмування на Java для початківців" </li>
+            <li>10. «Програмування на С# для початківців. Особливості мови»  </li>
+            <li>11. «Гід Computer Science для кожного програміста» </li>
+            <li>12. «Простий Python. Сучасний стиль програмування»  </li>
+            <li>13. «PHP. Швидкий старт»</li>
+            <li>14. "Створення додатків на Android для початківців" </li>
+            <li>15. «Грукаємо алгоритми. Ілюстрований посібник для програмістів та тих, хто цікавиться»</li>                
+        </ul>
+    </li>
+
+</ol>
+<!-- table -->
+
+    <!-- [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "name": "Tom",
+      "skills": ['html', 'css', 'js']
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    }, -->           
+    <ul>
+        <li><h3 id="top-page2">- зробіть табличку з стовбцями назва книги, рік випуску, рейтинг та 3 рядками з інформацією про кники ( інформація довільна)
+        </h3></li>
+    </ul>
+    <table border="10"  style="width: 100%;">
+        <thead>
+            <tr>
+                <th>
+                    назва книги
+                </th>
+                <th>
+                    рік випуску
+                </th>
+                <th>
+                    рейтинг 
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    «Шлях програміста: людина епохи IT»  
+                </td>
+                <td>
+                    (2016) 
+                </td>
+                <td>
+                1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    «Код: таємна мова інформатики» 
+                </td>
+                <td>
+                    (2004)
+                </td>
+                <td>
+                   2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    «Джедайські техніки» 
+                </td>
+                <td>
+                    (2021)
+                </td>
+                <td>
+                  3
+                </td>
+            </tr>
+        </tbody>
+    </table> 
+    <h1>
+        Додаткова робота:
+    </h1>
+    <ul>
+        <li><h3 id="top-page3">- створіть табличку як на зображені
+        </h3></li>
+    </ul>
+    <img src="images/Table.png">
+    <h1>
+        Створена табличка
+    </h1>
+    <table border="4"  style="width: 100%;">
+        <thead>
+            <tr>
+                <th colspan="2">
+                   text
+                </th>
+                <th>
+                    text
+                </th>
+                <th>
+                    text
+                </th>
+                <th colspan="2">
+                    text
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td colspan="2">
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td rowspan="4">
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    text
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+        </tbody>
+    </table> 
+</body>
+</html>
